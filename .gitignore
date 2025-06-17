@@ -18,11 +18,28 @@
 *.zip
 *.tar.gz
 *.rar
-*.iml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
 
-target/
+# IntelliJ IDEA-specific files
 .idea/
+*.iml
+*.iws
+
+# Maven or Gradle directories
+target/
+out/
+build/
+
+# Spring Boot-specific
+.env
+application.properties
+application.yml
+application-local.properties
+application-local.yml
+
+# Generated files
+*.swp
+*.swo
